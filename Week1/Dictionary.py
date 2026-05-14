@@ -1,3 +1,29 @@
+# Dictionary operations demo
+student = {"name": "Rahul", "age": 20, "marks": 85}
+
+print("Original Dictionary:", student)
+
+# keys()
+print("Keys:", student.keys())
+
+# values()
+print("Values:", student.values())
+
+# items()
+print("Items:", student.items())
+
+# get()
+print("Get marks:", student.get("marks"))
+
+# update()
+student.update({"marks": 90, "course": "Python"})
+print("After update:", student)
+
+# pop()
+student.pop("age")
+print("After pop (removed age):", student)
+S
+
 #Contact Book 
 contacts = {}
 n = int(input("Enter number of contacts: "))
